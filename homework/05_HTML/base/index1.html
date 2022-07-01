@@ -8,7 +8,7 @@
 <table width="700px" >
     <tr>
         <th align="left" valign="middle"><b>Простая форма поиска с вариантами: </b><br>
-            <form action="http://sc.it-academy.by/fe/form.php" name="simple" method="post">
+            <form action="http://sc.it-academy.by/fe/form.php" name="simple"  enctype="multipart/form-data" method="post">
             <fieldset>
                 <legend>Строка поиска</legend>
                 <input type="text" name="search"  maxlength="10"> <input type="submit" value="Искать"><br>
@@ -23,7 +23,7 @@
             </form>
          </th>
          <th align="left" valign="middle"><b>Простая форма поиска с вариантами:</b><br>
-            <form action="http://sc.it-academy.by/fe/form.php" name="simple_2" method="post">
+            <form action="http://sc.it-academy.by/fe/form.php" name="simple_2"  enctype="multipart/form-data" method="post">
                 <fieldset>
                     <legend>Строка поиска</legend>
                     <input type="text" autofocus required>* <input type="submit" value="Искать"> <br>
@@ -31,16 +31,16 @@
                         <input type="radio" name="grA" id="grA"> на сайте        
                     </label>    
                     <label>
-                        <input type="radio" name="grB" id="grB" checked>  в google       
+                        <input type="radio" name="grA" id="grB" checked>  в google       
                     </label><br>
                    <em> * - обязательное поле </em><br>
-                </fieldset>
+                </fieldset> 
             </form>
         </th>
    </tr>
    <tr>
         <th align="left" valign="middle"><b>Простая форма авторизации:</b><br>
-            <form action="http://sc.it-academy.by/fe/form.php" name="authorization" method="post|get">
+            <form action="http://sc.it-academy.by/fe/form.php" name="authorization"  enctype="multipart/form-data" method="post">
                 <fieldset>
                     <legend>Авторизируйтесь</legend>
                     <input type="text" id="login" name="login" required>
@@ -56,18 +56,18 @@
             </form>
         </th>
         <th align="left" valign="middle"><b>Опрос(голосование):</b>
-            <form action="http://sc.it-academy.by/fe/form.php" name="voting" method="post|get">
+            <form action="http://sc.it-academy.by/fe/form.php" name="voting"  enctype="multipart/form-data" method="post">
                 <fieldset><!--скрытое поле?-->
                    <legend>Как вам?</legend> 
                    <label>
-                   <input type="radio" name="radio_group" value="ничего" id="Checkbox_Group1_0" checked> ничего      
+                   <input type="radio" name="radio_group" value="ничего" id="Group1_0" checked> ничего      
                    </label> <br>
                    <label>
-                   <input type="radio" name="radio_group" value="неплохо" id="Checkbox_Group2_0"> неплохо      
+                   <input type="radio" name="radio_group" value="неплохо" id="Group2_0"> неплохо      
                    </label> <br>
-                   <input type="radio" name="radio_group" value="хорошо" id="Checkbox_Group3_0"> хорошо      
+                   <input type="radio" name="radio_group" value="хорошо" id="Group3_0"> хорошо      
                    </label> <br>
-                   <input type="radio" name="radio_group" value="супер" id="Checkbox_Group4_0"> супер      
+                   <input type="radio" name="radio_group" value="супер" id="Group4_0"> супер      
                 </label> <br>
                 <input type="submit" value="Отправить"><br>
                 </fieldset>
@@ -76,7 +76,7 @@
     </tr>
    <tr>
     <th align="left" valign="middle"><b>Отзыв:</b>
-        <form action="http://sc.it-academy.by/fe/form.php" name="reviews" method="post">
+        <form action="http://sc.it-academy.by/fe/form.php" name="reviews"  enctype="multipart/form-data" method="post">
             <fieldset>
                 <legend>Оставьте Ваш отзыв</legend>
                 <input type="text" id="name" name="name" required>
@@ -89,7 +89,7 @@
         </form>
     </th>
     <th align="left" valign="middle"><b>Выпадающий и мульти списки:</b>
-        <form action="http://sc.it-academy.by/fe/form.php" name="list" method="post|get">
+        <form action="http://sc.it-academy.by/fe/form.php" name="list" method="get">
             <fieldset>
                 <legend>Города РБ</legend>
                 <select name="list" id="list">
@@ -118,7 +118,7 @@
    </tr>
    <tr> 
     <th align="left" valign="middle"><b>Загрузка файла на сервер:</b>
-        <form action="http://sc.it-academy.by/fe/form.php"enctype="multipart/form-data" name="loading" method="post|get">
+        <form action="http://sc.it-academy.by/fe/form.php" enctype="multipart/form-data" name="loading" method="post">
             <fieldset>
                 <legend>Upload</legend>
                 <label for="file1">Файл:</label><br>
@@ -129,7 +129,7 @@
         </form>
     </th>
     <th align="left" valign="middle"><b>Валидация данных HTML5:</b>
-        <form action="http://sc.it-academy.by/fe/form.php" name="loading" method="post|get">
+        <form action="http://sc.it-academy.by/fe/form.php" name="loading"  enctype="multipart/form-data" method="post">
             <fieldset>
                 <legend>Строка поиска</legend>
                 <input type="text" id="search" name="search" pattern="[А-Я][а-я]"><small>Только русские буквы</small><br>
