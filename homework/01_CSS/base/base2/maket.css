@@ -1,0 +1,26 @@
+.example{
+    font-weight: 700;
+    text-align: right;
+}
+
+.adress{
+    text-align:right;
+    
+   }
+
+h3{
+    font-family: 'Caveat', cursive;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+}
+.text{
+    font-family: 'Caveat', cursive;
+    line-height: 30px;
+    font-size: 25px;
+}
+
+.text p{
+    text-indent: 20px;
+}
+
