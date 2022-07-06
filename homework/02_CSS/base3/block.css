@@ -1,0 +1,43 @@
+body{
+    padding: 30px;
+}
+
+  .block{
+    background-color:antiquewhite;
+    width: 900px;
+    height: 600px;
+  }
+
+  .nav{
+    width: 15em;
+    background-color: bisque;
+    float: left;
+    margin-right: 5px;
+  }
+
+  .article{
+    background-color: rgb(211, 143, 18);
+    margin-left: 5px;
+  }
+  .empty{
+    background-color: rgb(211, 143, 18);
+    overflow: auto;
+    clear:left;
+    }
+  
+ .icon{
+    float:right;
+
+ }
+
+ .article p{
+    margin-bottom: 2em;
+    margin-left: 10px;
+    padding: 5px;
+      }
+
+ .footer{
+    clear:both;
+    background-color: aqua;
+ }
+
