@@ -1,0 +1,20 @@
+.code{
+background-color: black;
+color:green;
+width: 400px;
+max-height: 70px;
+overflow: auto;
+}
+
+
+
+
+.list{
+    width: 350px;
+    list-style: upper-roman;
+    }
+
+.list1{
+    width: 350px;
+    list-style:lower-roman;  
+}
