@@ -1,11 +1,11 @@
-body{
-    padding: 30px;
-}
 
   .block{
     background-color:antiquewhite;
-    width: 900px;
-    height: 600px;
+    
+  }
+  p{
+    margin: 0;
+
   }
 
   .nav{
@@ -17,12 +17,12 @@ body{
 
   .article{
     background-color: rgb(211, 143, 18);
-    margin-left: 5px;
+    margin-left: 15em;
   }
   .empty{
     background-color: rgb(211, 143, 18);
     overflow: auto;
-    clear:left;
+    clear:both;
     }
   
  .icon{
@@ -31,7 +31,7 @@ body{
  }
 
  .article p{
-    margin-bottom: 2em;
+    margin-bottom: 0.2em;
     margin-left: 10px;
     padding: 5px;
       }
