@@ -32,28 +32,24 @@ div.Friday > div, div.Saturday > div {
     border-radius: 5px; 
     cursor: pointer;
 } 
-
 div.Menu > div:hover div.Monday { 
     display: block;
     position: absolute; 
     top: 100%; 
     z-index: 1 
 }
-
 div.Menu > div:hover div.Tuesday { 
     display: block;
     position: absolute; 
     top: 100%; 
     z-index: 1 
 }
-
 div.Menu > div:hover div.Wednesday { 
     display: block;
     position: absolute; 
     top: 100%; 
     z-index: 1 
 }
-
 div.Menu > div:hover div.Thursday { 
     display: block;
     position: absolute; 
