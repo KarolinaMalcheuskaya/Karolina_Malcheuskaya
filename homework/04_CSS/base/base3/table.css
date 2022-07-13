@@ -1,0 +1,89 @@
+table{
+    width: 800px;
+    height: 800px;
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+.line1 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.line1 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  
+}
+.line2 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.line2 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.line3 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.line3 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+.line4 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.line4 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}   
+.line5 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.line5 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+.line6 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.line6 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}   
+.line7 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+.line7 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+  }
+  .line8 td:nth-child(odd){
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+.line8 td:nth-child(even){
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}   
+
+
