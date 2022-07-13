@@ -1,0 +1,42 @@
+a[href$=".doc"]::before{
+    content: url(img/extref.png);
+    background-position-y: center;
+    padding-left:10px;
+}
+
+.list{
+    padding-inline-start: 10px;
+}
+.list li{
+    list-style: none;
+}
+a[href$=".txt"]::before{
+    content: url(img/logo-list.jpg);
+}
+
+.Doc::after{
+    content: url(img/logo-doc.jpg);
+} 
+
+.PDF::after{
+    content: url(img/logo-pdf.png);
+}
+.ZIP::after{
+    content: url(img/logo-zip.gif);
+}
+
+.word:hover{
+    background: url(img/logo-doc.jpg) no-repeat;
+    background-position: 150px ;
+    padding-right:20px; 
+}
+.pdf:hover{
+    background: url(img/logo-pdf.png) no-repeat;
+    background-position: 117px ;
+    padding-right:20px; 
+}
+.zip:hover{
+    background: url(img/logo-zip.gif) no-repeat;
+    background-position: 60px ;
+    padding-right:20px; 
+}
