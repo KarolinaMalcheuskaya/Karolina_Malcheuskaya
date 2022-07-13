@@ -1,0 +1,72 @@
+.table{
+    font-size: 20px;
+    border-bottom: 2px slategrey dotted ;
+    border-collapse: collapse;
+    caption-side: bottom;
+    margin: 10px;
+    background-color: #FFFFFF;
+}
+
+td, th{
+    border: 2px slategrey dotted ;
+}
+
+.line1 td{
+    font-weight: bold;
+    text-align: center;
+    background-color: #808080;
+    border-right: 2px solid white;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.line2 th {
+    border: none;
+    text-align: left;
+}
+.line2 td{
+    border-top: none;
+    border-bottom: none;
+}
+
+.line3 th, .line4 th, .line5 th, .line6 th {
+    border-left: none;
+    text-align: left;
+}
+
+.line2 td:last-child, .line3 td:last-child, .line4 td:last-child, .line5 td:last-child, .line6 td:last-child{
+    border-right: none;
+
+}
+
+.table tr:nth-child(even){
+    background-color: antiquewhite;
+}
+
+.table tr:nth-child(odd){
+    background-color:#D3D3D3;
+}
+.table tr:nth-child(2):hover{
+    background-color: aqua;
+    cursor: pointer;
+}
+.table tr:nth-child(3):hover{
+    background-color: rgba(92, 121, 121, 0.808);
+    cursor: pointer;
+}
+.table tr:nth-child(4):hover{
+    background-color: rgba(18, 155, 18, 0.808);
+    cursor: pointer;
+}
+
+.table tr:nth-child(5):hover{
+    background-color: rgb(209, 16, 209);
+    cursor: pointer;
+}
+.table tr:nth-child(6):hover{
+    background-color: rgb(255, 0, 85);
+    cursor: pointer;
+}
+
+
