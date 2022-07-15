@@ -1,0 +1,44 @@
+.wrapper{
+  min-height: 100%;
+  background-color:#DBDBDB;
+  display: flex;
+  flex-direction: column;
+}
+.content{
+  flex: 1 1 auto;
+}
+
+.block{
+  display: flex;
+}
+
+.nav{
+  width: 15em;
+  background-color: #CCCCCC;
+  flex:1 0 auto;
+  margin-bottom: 0.2em;
+}
+.icon{
+  float: right;
+}
+p{
+  margin: 0;
+} 
+
+.article{
+    background-color: #AAAAAA;
+    margin-bottom: 0.2em;
+}
+
+.article1 p{
+  margin-bottom: 0.2em;
+
+}
+
+
+
+
+.footer{
+  background-color: #CCCCCC;
+}
+
