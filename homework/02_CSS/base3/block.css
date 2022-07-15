@@ -1,6 +1,6 @@
 
   .block{
-    background-color:antiquewhite;
+    background-color:#DBDBDB;
     
   }
   p{
@@ -10,17 +10,17 @@
 
   .nav{
     width: 15em;
-    background-color: bisque;
+    background-color: #CCCCCC;
     float: left;
     margin-right: 5px;
-  }
+    }
 
   .article{
-    background-color: rgb(211, 143, 18);
+    background-color: #AAAAAA;
     margin-left: 15em;
   }
   .empty{
-    background-color: rgb(211, 143, 18);
+    background-color:#AAAAAA;
     overflow: auto;
     clear:both;
     }
@@ -34,10 +34,10 @@
     margin-bottom: 0.2em;
     margin-left: 10px;
     padding: 5px;
-      }
+  }
 
  .footer{
     clear:both;
-    background-color: aqua;
+    background-color: #CCCCCC;
  }
 
