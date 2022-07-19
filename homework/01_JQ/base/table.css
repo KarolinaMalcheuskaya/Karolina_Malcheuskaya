@@ -1,0 +1,47 @@
+.table{
+    font-size: 20px;
+    border: 3px black dotted ;
+    border-collapse: collapse;
+    caption-side: bottom;
+    margin: 10px;
+    background-color: #FFFFFF;
+    width: 100%;
+    cursor: pointer;
+}
+
+td, th{
+    border: 2px slategrey dotted ;
+}
+
+.line1 td{
+    font-weight: bold;
+    text-align: center;
+    background-color: #808080;
+       
+}
+
+.line2 th, .line3 th, .line4 th, .line5 th, .line6 th {
+    text-align: left;
+}
+.line2 td, .line3 td, .line4 td, .line5 td, .line6 td {
+    text-align: center;
+}
+
+
+.table tr:nth-child(even){
+    background-color: #FFFFFF;
+}
+.table tr:nth-child(odd){
+    background-color: #D3D3D3;
+}
+
+.button{
+    height: 35px;
+    width: 200px;
+    background-color: blue;
+    color:azure;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+
