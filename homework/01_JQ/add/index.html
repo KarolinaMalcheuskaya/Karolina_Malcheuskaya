@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Input</title>
+</head>
+<body>
+<forma action="#" name="password" method="post">
+    <p style="font-weight: 800; font-size: 50px">Проверка пароля</p>
+    <div class="examination" style="border: 1px solid black; width: 40%; height: 100px; padding: 10px">
+    <div class="psw">
+        <input type="password" id="pass">
+        <label for="pass" style="font-size: 20px; font-weight: 600 ">*Пароль</label>
+    </div>
+    <div class="dpsw">
+        <input type="password" id="repPass" style="margin-bottom:10px">
+        <label for="repPass" style="font-size: 20px; font-weight: 600 ">*Повторите пароль</label>
+    </div>
+    <div class="button">
+        <button type="submit">Отправить</button>
+    </div>
+    </div>
+</forma>
+
+<script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous">
+</script> 
+
+<script>
+$(document).ready (function($){
+    $('#repPass').change(function() {
+            var pass = $("#pass").val();
+            var pass_rep = $("#repPass").val();
+
+            if (pass != pass_rep) {
+                $("#repPass").css('backgroundColor', 'red');
+                $("#Pass").css('backgroundColor', 'red');
+                $('#errorBlock').html('Пароли не совпадают');
+            }
+            else 
+            if (pass = pass_rep) {
+                $("#repPass").css('backgroundColor', 'green');
+            }
+
+        });
+    });
+       
+       
+</script>
+</body>
+</html>
